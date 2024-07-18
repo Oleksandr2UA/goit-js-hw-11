@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style></style>
     <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <form class="search-form" id="search-form">
+      <input
+        class="search-bar"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="search-button" type="submit">🔍</button>
+    </form>
+    <div class="gallery">
+      <!-- Content goes here -->
+    </div>
+    <span class="loader hidden"></span>
+    <button class="load-more hidden">Load more</button>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
